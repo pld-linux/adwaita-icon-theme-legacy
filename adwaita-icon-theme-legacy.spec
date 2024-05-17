@@ -48,7 +48,7 @@ rm -rf $RPM_BUILD_ROOT
 rm -rf $RPM_BUILD_ROOT
 
 %post
-%update_icon_cache Adwaita
+%update_icon_cache AdwaitaLegacy
 
 %files
 %defattr(644,root,root,755)
